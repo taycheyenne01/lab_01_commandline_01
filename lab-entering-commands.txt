@@ -1,10 +1,10 @@
 
 Lab - Entering Commands
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
@@ -17,29 +17,39 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Adlm				Public
+Applications			QLData
+Desktop				Things
+Documents			ipe.properties
+Downloads			isus
+Library				lab_01_commandline_01
+Movies				pslog_20200109_170408.log
+Music				pymel.log
+Pictures			xgen
+
 
 
 
 ==========
-2a. Type: 
+2a. Type:
 
 $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+it presented three options to choose such as:Desktop/   Documents/ Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -49,7 +59,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxrwxrwx  15 student  staff    510 Jan  9 17:04 Adobe
+drwxr-xr-x   3 student  staff    102 Aug 22  2016 Arduino
 
 
 ==========
@@ -59,7 +70,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Discord			Pro Tools
+..			Discord alias		Processing
 
 
 ==========
@@ -69,7 +81,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls
 
 
 ==========
@@ -79,7 +91,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls 
 
 
 ==========
@@ -89,6 +101,8 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
+it presented Volumes and brought me to Macintosh HD		firmwaresyncd.qtsFRs
+
 
 
 
@@ -99,37 +113,37 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexsist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l and -a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Documents
 
 
 ==========
@@ -139,7 +153,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -149,7 +163,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -159,3 +173,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+the Command is ls
+the flag is -a
+the argument is Desktop
+the prompt is ls -a Desktop
