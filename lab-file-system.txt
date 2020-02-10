@@ -112,7 +112,6 @@ Copy and paste the output below.
 ----------
 /
 
-
 ==========
 12. Type:
 
@@ -206,7 +205,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+ mkdir -p pinapple/orange/stawberry/lemon
 
 
 ==========
@@ -214,7 +213,8 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+ mkdir aardvark
+ ls
 
 
 ==========
@@ -222,7 +222,8 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x   2 student  staff   68 Feb 10 17:04 .
+drwx------+ 21 student  staff  714 Feb 10 17:04 ..
 
 
 ==========
@@ -234,7 +235,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz/qux
 
 
 ==========
@@ -242,7 +243,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd baz
 
 
 ==========
@@ -250,12 +251,12 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rm
 
 
 ==========
